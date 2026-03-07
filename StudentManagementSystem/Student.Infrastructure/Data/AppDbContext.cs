@@ -11,6 +11,7 @@ namespace Student.Infrastructure.Data
         }
 
         public DbSet<StudentModel> students { get; set; }
+        public DbSet<User> users { get; set; }
 
 
     }
